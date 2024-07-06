@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="i'm Nizar KOUKI, front-end developper and programmer. ">
+    <meta name="keywords" content="Professional web developer portfolio, HTML, CSS, JavaScript projects, Python programmer, nizar kouki, netlify website, C language developer, Creative web design, front-end developer, Responsive website design examples, Full-stack developer, Web development projects, Online coding, python, C, developper">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio | Nizar Kouki</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="title">PORTFOLIO</div>
+            <div class="hamburger-menu">
+                <span>&#9776;</span>
+            </div>
+            <div class="menu">
+                <button class="btn-close">&#x2715;</button>
+                <div class="navigation">
+                    <ul>
+                        <li><a href="#home" class="link">Home</a></li>
+                        <li><a href="#about" class="link">About</a></li>
+                        <li><a href="#" class="link">Projects</a></li>
+                        <li><a href="#contact" class="link">Contact</a></li>
+                    </ul>
+                </div>
+                <button class="subscribe">SUBSCRIBE</button>
+                <div class="socials-menu">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.github.com/" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    <div class="container">
+        <section id="home">
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.github.com/" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="introduction">
+                <div class="greeting">Hey 👋 I'm</div>
+                <div class="name">Nizar KOUKI</div>
+                <div class="work">Programmer | Web Developer</div>
+                <div class="country">from TUNISIA</div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="content">
+                <div class="about-details">
+                    <div class="left">
+                        <img src="images/nizar.jpg" alt="" />
+                    </div>
+                    <div class="right">
+                        <div class="about-title">About me</div>
+                        <p>
+                            I am a skilled front-end developper with a strong background in programming. My expertise lies in creating responsie, user friendly websites and applications using HTML, CSS and JavaScript. Additionnaly I have a solid foundation in C and Python, which allows me to tackle a variety of programming challenges and bring a versatile approach to my projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h1>Contact Me</h1>
+            <div class="box">
+                <div class="left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label>First Name :</label>
+                            <input type="text" id="firstName" placeholder="Enter first name">
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name :</label>
+                            <input type="text" id="lastName" placeholder="Enter family name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email :</label>
+                            <input type="email" id="email" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label>Message :</label>
+                            <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+                <div class="right">
+                    <img src="images/contact.jpg" alt="Web Development">
+                </div>
+            </div>
+            
+            
+        
+        </section>
+    </div>
+
+    <div id="subscribe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Subscribe</h2>
+            <form>
+                <div class="form-group">
+                    <label>Full Name :</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label>Email :</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    
+    <script src="script.js" defer></script>
+</body>
+<footer>
+    
+    
+    <span>&copy; 2024 Nizar Kouki.</span> <span>All rights reserved.</span>
+</footer>
+</html>
