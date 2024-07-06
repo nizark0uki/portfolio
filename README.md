@@ -4,7 +4,7 @@ Welcome to my portfolio website! This is a showcase of my projects, skills, and 
 
 ## Website
 
-You can visit my portfolio at (https://portfolio-nizar-kouki.netlify.app).
+You can visit my portfolio at https://portfolio-nizar-kouki.netlify.app
 
 ## Contact
 
